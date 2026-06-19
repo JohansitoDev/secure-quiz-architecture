@@ -1,0 +1,9 @@
+# Añadir el archivo .gitignore y registrar las eliminaciones
+git add .gitignore
+git add .
+
+# Hacer el commit
+git commit -m "chore: agregar .gitignore y remover archivos db y pycache"
+
+# Subir los cambios
+git push origin main
