@@ -27,3 +27,15 @@ Construí este proyecto utilizando **Python** junto con **Streamlit** para el fr
    ```bash
    git clone [https://github.com/JohansitoDev/secure-quiz-architecture.git](https://github.com/JohansitoDev/secure-quiz-architecture.git)
    cd secure-quiz-architecture
+
+
+   ---
+
+## 🔒 Seguridad y Buenas Prácticas (DevSecOps)
+
+Para garantizar la integridad del código y la protección de los datos en este repositorio, tengo habilitadas las siguientes directivas de seguridad nativas de GitHub:
+
+* 🤖 **Dependabot Alerts & Updates:** Supervisa de forma continua las dependencias del proyecto (`requirements.txt`). Si se detecta alguna vulnerabilidad o malware en las librerías (`streamlit`, `bcrypt`, etc.), el sistema genera alertas y pull requests automáticos para aplicar los parches de seguridad necesarios.
+* 🛡️ **Push Protection (Protección contra Push):** Bloquea automáticamente cualquier intento de subir commits que contengan por accidente secretos expuestos, tokens, llaves API o credenciales críticas.
+* 🔍 **Code Scanning (Escaneo de Código con CodeQL):** Análisis estático automatizado (SAST) para detectar vulnerabilidades comunes, malas prácticas de codificación o debilidades de seguridad en el código Python antes de que afecten la aplicación.
+* 🐛 **Informes Privados de Vulnerabilidades:** Habilité un canal seguro para que la comunidad o colaboradores puedan reportar de manera privada cualquier fallo de seguridad descubierto en el simulador sin exponerlo públicamente.
